@@ -8,7 +8,7 @@ O sistema permite realizar downloads diretos — por exemplo, de um arquivo de 3
 ## Descrição
 
 O sistema utiliza uma API_KEY para acessar a API do Google Drive e efetuar o download de um arquivo que esteja configurado como público.  
-Durante o processo, o progresso do download é exibido no console e o arquivo é salvo localmente (por padrão, com o nome `arquivo_baixado.bin`).
+Durante o processo, o progresso do download é exibido no console e o arquivo é salvo localmente (por padrão, com o nome `arquivo_baixado.zip`).
 
 ## Requisitos
 
