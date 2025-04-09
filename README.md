@@ -37,13 +37,14 @@ Durante o processo, o progresso do download é exibido no console e o arquivo é
 
 - Ou baixe o projeto e abra o projeto no **Visual Studio Code** (ou utilize outro editor de sua preferência).
 
-### 2.1 
+### 2.1 Configuração
 
 - No arquivo Program.cs, substitua o valor da variável apiKey pela sua API_KEY obtida no Google Cloud Console.
 Atualize a variável fileId com o ID do arquivo público que você deseja baixar.
 Caso necessário, ajuste o nome e o caminho do arquivo de destino definido na variável destinationFile.
 
 ### 3. Dependências
+```bash
 dotnet restore
 
 - Esse comando irá restaurar todas as dependências listadas, incluindo o Google.Apis.Drive.v3.
@@ -55,7 +56,3 @@ dotnet add package Google.Apis.Drive.v3
 ```bash
 dotnet build
 dotnet run
-
-
-
-
