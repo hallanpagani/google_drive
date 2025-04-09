@@ -46,11 +46,13 @@ Caso necessário, ajuste o nome e o caminho do arquivo de destino definido na va
 ### 3. Dependências
 ```bash
 dotnet restore
+```
 
 - Esse comando irá restaurar todas as dependências listadas, incluindo o Google.Apis.Drive.v3.
 Porém, se a referência ao pacote não estiver presente no arquivo do projeto, será necessário executar o comando:
-
+```bash
 dotnet add package Google.Apis.Drive.v3
+```
 
 ### 4. Rodar
 ```bash
