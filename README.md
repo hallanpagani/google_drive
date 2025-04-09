@@ -33,7 +33,7 @@ Durante o processo, o progresso do download é exibido no console e o arquivo é
 - **Clonando o repositório (se disponível):**
   ```bash
   git clone <URL_DO_REPOSITORIO>
-  cd <NOME_DO_PROJETO>
+  cd <NOME_DO_PROJETO>```
 
 - Ou baixe o projeto e abra o projeto no **Visual Studio Code** (ou utilize outro editor de sua preferência).
 
@@ -45,7 +45,7 @@ Caso necessário, ajuste o nome e o caminho do arquivo de destino definido na va
 
 ### 3. Dependências
 ```bash
-dotnet restore
+dotnet restore```
 
 - Esse comando irá restaurar todas as dependências listadas, incluindo o Google.Apis.Drive.v3.
 Porém, se a referência ao pacote não estiver presente no arquivo do projeto, será necessário executar o comando:
@@ -55,4 +55,4 @@ dotnet add package Google.Apis.Drive.v3
 ### 4. Rodar
 ```bash
 dotnet build
-dotnet run
+dotnet run```
